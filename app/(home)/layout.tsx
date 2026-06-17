@@ -1,3 +1,4 @@
+export const dynamic = 'force-static';
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { DefaultLayout } from "@/components/root-layout";

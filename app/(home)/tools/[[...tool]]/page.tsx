@@ -1,3 +1,5 @@
+export const dynamicParams = false;
+export function generateStaticParams() { return []; }
 import { type ToolName, toolsNames } from "@/types/tools";
 import clsx from "clsx";
 import { Assemble } from "./_components/assemble";

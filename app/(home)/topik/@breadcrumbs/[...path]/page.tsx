@@ -1,3 +1,5 @@
+export const dynamicParams = false;
+export function generateStaticParams() { return []; }
 import Link from "next/link";
 
 export default async function Page(props: {

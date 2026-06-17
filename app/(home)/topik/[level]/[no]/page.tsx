@@ -1,3 +1,5 @@
+export const dynamicParams = false;
+export function generateStaticParams() { return []; }
 import { keystoneContext } from "@/../keystone/context";
 import { isTestStart, updateTopikItemAction } from "@/actions/topik-actions";
 import { TopikLevels, type TopikQuestion } from "@/types";

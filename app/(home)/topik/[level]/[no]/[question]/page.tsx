@@ -1,3 +1,5 @@
+export const dynamicParams = false;
+export function generateStaticParams() { return []; }
 import { TopikLevels } from "@/types";
 import type { Metadata } from "next";
 import { TopikQuestionPage } from "./_components/question-page";

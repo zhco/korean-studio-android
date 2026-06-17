@@ -1,3 +1,5 @@
+export const dynamicParams = false;
+export function generateStaticParams() { return []; }
 import type { DocPathParams } from "@/types";
 import type { Metadata } from "next";
 import LevelPage from "./[...doc_path]/page";

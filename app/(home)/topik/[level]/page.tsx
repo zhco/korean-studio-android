@@ -1,3 +1,5 @@
+export const dynamicParams = false;
+export function generateStaticParams() { return []; }
 import { keystoneContext } from "@/../keystone/context";
 import { TopikLevels } from "@/types";
 import type { Metadata } from "next";

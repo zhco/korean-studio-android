@@ -1,3 +1,5 @@
+export const dynamicParams = false;
+export function generateStaticParams() { return []; }
 import { TopikQuestionPage } from "@/(home)/topik/[level]/[no]/[question]/_components/question-page";
 import { QuestionModal } from "./_components/question-modal";
 import type { TopikLevelType } from ".keystone/types";
