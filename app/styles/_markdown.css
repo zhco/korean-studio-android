@@ -1,0 +1,63 @@
+.markdown-body {
+	--fgColor-default: theme(textColor.base-content)!important;
+	--bgColor-default: theme(colors.transparent)!important;
+	--borderColor-default: theme(colors.base-content)!important;
+	--borderColor-muted: var(--borderColor-default)!important;
+	table tr:nth-child(2n) {
+		background-color: unset!important;
+	}
+	ol, ul, menu {
+		list-style: revert;
+	}
+	ol {
+		/* list-style-type: decimal; */
+	}
+	table {
+		@apply !w-auto;
+		@apply mobile:max-w-[calc(100vw-5rem)];
+		@apply overflow-x-auto
+	}
+	h1, h2, h3, h4, h5, h6 {
+		/* https://stackoverflow.com/questions/65929206/sticky-header-input-scrolls-on-input */
+		scroll-margin-top: var(--header-height);
+
+		position: relative;
+		a {
+			@apply absolute top-1/2 left-[-22px] flex w-5 h-5 m-auto rounded-md opacity-0 justify-center items-center -translate-y-2/4;
+			border-radius: var(--borderRadius-medium);
+			color: theme(colors.base-content);
+		}
+		&:hover {
+			a {
+				@apply opacity-100
+			}
+		}
+	}
+	.anchor {
+		@apply !ml-0;
+	}
+
+	--bgColor-muted: rgba(246, 248, 250, 0.3)!important;
+
+	pre {
+    @apply mobile:max-w-[calc(100vw-5rem)];
+    @apply overflow-x-auto;
+    @apply p-4;
+    code {
+      @apply whitespace-pre;
+      @apply inline-block;
+      @apply min-w-full;
+    }
+  }
+	li > pre {
+		@apply mobile:max-w-[calc(100vw-7rem)];
+	}
+
+	hr {
+		@apply !h-0.5
+	}
+
+	iframe {
+		@apply !w-[-webkit-fill-available] !h-auto !aspect-video rounded-lg overflow-hidden;
+	}
+}

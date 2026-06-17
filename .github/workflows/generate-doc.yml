@@ -1,0 +1,52 @@
+name: Generate doc
+run-name: Generate doc
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+    inputs:
+      docLevel:
+        description: "Doc level"
+        required: true
+        default: "beginner"
+        type: choice
+        options:
+          - beginner
+          - intermediate
+      docTitle:
+        description: "Doc title"
+        required: true
+        type: string
+
+jobs:
+  update-doc:
+    runs-on: ubuntu-latest
+    env:
+      DOC_LEVEL: ${{ inputs.docLevel }}
+      DOC_TITLE: ${{ inputs.docTitle }}
+      AI: ${{ vars.AI }}
+      GPT_MODEL: ${{ vars.GPT_MODEL }}
+      GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+      GPT_URL: ${{ secrets.GPT_URL }}
+      GPT_KEY: ${{ secrets.GPT_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run script:docs-file
+        run: npm run script:docs-file "${{ env.DOC_TITLE }}"
+
+      - name: Run script:docs-desc
+        run: npm run script:docs-desc
+
+      - name: Run script:generate-search-index
+        run: npm run script:generate-search-index
+
+      - name: Commit docs-desc
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📃 docs(description): Generate description by chatGPT"

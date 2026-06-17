@@ -1,0 +1,22 @@
+@import "./_tailwind.css";
+@import "./_variables.css";
+@import "./_animation.css";
+@import "./_markdown.css";
+@import "./_ebook.css";
+@import "./_nprogress.css";
+
+/* https://ylface.com/course/2821.html */
+/* 当父级元素使用了backdrop--filter后，子级再使用该属性会不生效。 */
+.before-backdrop-shadow {
+	@apply before:absolute before:content-[''] before:backdrop-blur-lg before:top-0 before:left-0 before:right-0 before:bottom-0 before:z-[-1];
+}
+
+.after-backdrop-shadow {
+	@apply before:absolute before:content-[''] before:backdrop-blur-lg before:rounded-lg before:top-0 before:left-0 before:right-0 before:bottom-0 before:z-[1];
+}
+
+body[data-can-scroll="false"] {
+	#progress {
+		@apply hidden;
+	}
+}

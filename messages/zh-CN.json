@@ -1,0 +1,118 @@
+{
+	"Index": {
+		"title": "让我们说韩文",
+		"description": "欢迎来到我们的网站，您的一站式韩语学习平台。无论您是初学者还是进阶学者，我们为您提供丰富的学习资源，包括韩语打字练习、词汇和语法学习、真题训练等功能。通过我们的互动式课程和模拟考试，您可以全面提升韩语听说读写能力。立即加入我们，开启您的韩语学习之旅吧！",
+		"keywords": "韩语,韩语教室,韩语学习,韩语词汇,韩语语法,韩语真题,Topik,Topik真题"
+	},
+	"Header": {
+		"beginner": "入门",
+		"intermediate": "进阶",
+		"article": "文章",
+		"tools": "工具",
+		"signIn": "登录",
+		"signOut": "退出",
+		"search": "搜索"
+	},
+	"Account": {
+		"profile": "个人资料",
+		"myWordList": "我的词单",
+		"myAnnotation": "我的标注",
+		"username": "用户名",
+		"password": "密码",
+		"confirmPassword": "确认密码",
+		"email": "邮箱",
+		"changePassword": "修改密码",
+		"dictName": "词单名",
+		"public": "公开",
+		"poster": "封面"
+	},
+	"Home": {
+		"viewList": "查看列表",
+		"tipsEnter": "按下<enter></enter>键输入",
+		"tipsForMobile": "请使用电脑获得更好体验",
+		"createWord": "请输入单词或单词解释，多个单词用逗号分隔 例如：안녕,谢谢",
+		"exampleWord": "안녕,谢谢",
+		"generateWord": "生成单词",
+		"generating": "生成中...",
+		"generated": "生成成功!",
+		"generateError": "生成失败，请重试。",
+		"autoVoice": "自动朗读",
+		"showMeaning": "显示释义",
+		"additionalMeaning": "外语释义",
+		"enableAudio": "启用音效",
+		"deleting": "删除中...",
+		"deleted": "删除成功!",
+		"deleteError": "删除失败，请重试。",
+		"importing": "导入中...",
+		"imported": "导入成功!",
+		"importError": "导入失败，请重试。",
+		"createWordList": "输入词单名称：",
+		"creating": "创建中...",
+		"created": "创建成功!",
+		"createError": "创建失败，请重试。",
+		"removing": "删除中...",
+		"removed": "删除成功!",
+		"removeError": "删除失败，请重试。",
+		"createNewDict": "新建词单",
+		"removeWordList": "删除词单",
+		"removeWord": "删除单词",
+		"updating": "更新中...",
+		"updated": "更新成功!",
+		"updateError": "更新失败，请重试。",
+		"newWordDetected": "新单词已添加，更新中..."
+	},
+	"Dict": {
+		"popular": "热门词汇",
+		"dirty": "脏话",
+		"adverb": "副词",
+		"family": "家族",
+		"onomatopoeia": "拟声词",
+		"adjective": "形容词",
+		"verb": "动词",
+		"favList": "⭐ 收藏",
+		"_local": "🖥️ 本地词汇"
+	},
+	"Modal": {
+		"close": "关闭",
+		"cancel": "取消",
+		"confirm": "确认",
+		"success": "成功",
+		"error": "错误"
+	},
+	"Tools": {
+		"description": "韩语工具: 标准化发音、罗马音转换、字母组合、文字拆分",
+		"standardizePronunciation": "标准化发音",
+		"standardizePronunciationDescription": "将韩文字符串更改为标准发音",
+		"romanize": "罗马音转换",
+		"romanizeDescription": "将韩文字符串转换为罗马音",
+		"assemble": "字母组合",
+		"assembleDescription": "将韩文字母和文字按照韩文规则合成",
+		"disassemble": "文字拆分",
+		"disassembleDescription": "将韩文字符串拆分为韩文字母"
+	},
+	"Topik": {
+		"startTest": "开始测试",
+		"cancelTest": "取消测试",
+		"reset": "重置",
+		"submit": "提交",
+		"answer": "答案",
+		"explain": "解释",
+		"next": "下一题",
+		"prev": "上一题",
+		"score": "得分",
+		"correct": "正确",
+		"incorrect": "错误",
+		"unSelectedTips": "请选择一个选项"
+	},
+	"Article": {
+		"scene": "场景",
+		"viewMode": "显示模式",
+		"translation": "字幕语言",
+		"sideBySide": "两侧对齐",
+		"vertical": "垂直显示"
+	},
+	"Notification": {
+		"addWordSuccess": "新单词已添加到词单",
+		"addWordContent": "单词「{word}」已成功添加到列表!"
+	}
+}

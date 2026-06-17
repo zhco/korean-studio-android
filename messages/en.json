@@ -1,0 +1,118 @@
+{
+	"Index": {
+		"title": "Let's Speak Korean",
+		"description": "Welcome to our website, your one-stop platform for learning Korean. Whether you are a beginner or an advanced learner, we offer a wealth of resources including Korean typing practice, vocabulary and grammar lessons, and mock exams. Through our interactive courses and simulation tests, you can comprehensively improve your Korean listening, speaking, reading, and writing skills. Join us now to start your Korean learning journey!",
+		"keywords": "Korean, Korean classroom, Korean learning, Korean vocabulary, Korean grammar, Korean mock exams, Topik, Topik mock exams"
+	},
+	"Header": {
+		"beginner": "Beginner",
+		"intermediate": "Intermediate",
+		"article": "Article",
+		"tools": "Tools",
+		"signIn": "Sign In",
+		"signOut": "Sign Out",
+		"search": "Search"
+	},
+	"Account": {
+		"profile": "Profile",
+		"myWordList": "My word list",
+		"myAnnotation": "My annotation",
+		"username": "Username",
+		"password": "Password",
+		"confirmPassword": "Confirm password",
+		"email": "Email",
+		"changePassword": "Change password",
+		"dictName": "Word List Name",
+		"public": "Public",
+		"poster": "Poster"
+	},
+	"Home": {
+		"viewList": "View list",
+		"tipsEnter": "Press<enter></enter>to type!",
+		"tipsForMobile": "Please use a computer to get a better experience.",
+		"createWord": "Please input words or meanings, multiple words are separated by commas. For example: 안녕,thank you",
+		"exampleWord": "안녕,thank you",
+		"generateWord": "Generate words",
+		"generating": "Generating...",
+		"generated": "Generated successfully!",
+		"generateError": "Failed to generate. Please try again.",
+		"autoVoice": "Auto read",
+		"showMeaning": "Show meaning",
+		"additionalMeaning": "Foreign language meaning",
+		"enableAudio": "Enable audio effect",
+		"deleting": "Deleting...",
+		"deleted": "Deleted successfully!",
+		"deleteError": "Failed to delete. Please try again.",
+		"importing": "Importing...",
+		"imported": "Imported successfully!",
+		"importError": "Failed to import. Please try again.",
+		"createWordList": "Input Word List Name:",
+		"creating": "Creating...",
+		"created": "Created successfully!",
+		"createError": "Failed to create. Please try again.",
+		"removing": "Removing...",
+		"removed": "Removed successfully!",
+		"removeError": "Failed to remove. Please try again.",
+		"createNewDict": "Create new",
+		"removeWordList": "Remove Word List",
+		"removeWord": "Remove Word",
+		"updating": "Updating...",
+		"updated": "Updated successfully!",
+		"updateError": "Failed to update. Please try again.",
+		"newWordDetected": "New word added. Updating..."
+	},
+	"Dict": {
+		"popular": "Popular Words",
+		"dirty": "Dirty Words",
+		"adverb": "Adverb",
+		"family": "Family",
+		"onomatopoeia": "Onomatopoeia",
+		"adjective": "Adjective",
+		"verb": "Verb",
+		"favList": "⭐ Favorite List",
+		"_local": "🖥️ Local Words"
+	},
+	"Modal": {
+		"close": "Close",
+		"cancel": "Cancel",
+		"confirm": "Confirm",
+		"success": "Success",
+		"error": "Error"
+	},
+	"Tools": {
+		"description": "Korean text tools: standardize pronunciation, romanize, assemble, disassemble",
+		"standardizePronunciation": "Standardize Pronunciation",
+		"standardizePronunciationDescription": "Standardize Korean text to standard pronunciation",
+		"romanize": "Romanize text",
+		"romanizeDescription": "Romanize Korean text",
+		"assemble": "Assemble text",
+		"assembleDescription": "Assemble Korean text",
+		"disassemble": "Disassemble text",
+		"disassembleDescription": "Disassemble Korean text"
+	},
+	"Topik": {
+		"startTest": "Start Test",
+		"cancelTest": "Cancel Test",
+		"reset": "Reset",
+		"submit": "Submit",
+		"answer": "Answer",
+		"explain": "Explain",
+		"next": "Next",
+		"prev": "Prev",
+		"score": "Score",
+		"correct": "Correct",
+		"incorrect": "Incorrect",
+		"unSelectedTips": "Please select an answer"
+	},
+	"Article": {
+		"scene": "Scene",
+		"viewMode": "View Mode",
+		"translation": "Translation Language",
+		"sideBySide": "Side by Side",
+		"vertical": "Vertical"
+	},
+	"Notification": {
+		"addWordSuccess": "New word added to list!",
+		"addWordContent": "Word「{word}」has been added to list successfully!"
+	}
+}
