@@ -30,14 +30,10 @@ jobs:
         run: npm install --legacy-peer-deps --ignore-scripts
 
       - name: Build Next.js static export
-        run: |
-          npx next build
-        env:
-          NEXT_PUBLIC_STATIC_EXPORT: 'true'
+        run: NEXT_TELEMETRY_DISABLED=1 npx next build
 
       - name: Install Capacitor
-        run: |
-          npm install @capacitor/core @capacitor/cli @capacitor/android
+        run: npm install @capacitor/core @capacitor/cli @capacitor/android --no-save
 
       - name: Add Android platform
         run: npx cap add android
